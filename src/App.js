@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import  { evaluate } from 'mathjs';
+import{ evaluate } from 'mathjs';
 import './App.css';
 import Buttons from './components/Buttons';
 import Inputs from './components/Inputs';
@@ -10,6 +10,7 @@ function App() {
 
   const calculateResult=()=>{
     const input =text.join("");
+    
     setResult(evaluate(input))
   }
   const addtoText=(val)=>{
