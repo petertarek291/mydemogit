@@ -1,6 +1,3 @@
-# Demo 
-my demo learning  
+# Calculator with React Js
+my demo Calculation
 
-## subheader
-## Text to demo
-containue
